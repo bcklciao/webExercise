@@ -1,0 +1,170 @@
+<html>
+<head>
+	<title>ex7</title>
+	<link rel="stylesheet" href="css/one-debug.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>
+		<div class="m-tl ui-grid-row">
+			<div class="m-tab ui-grid-3">
+				<span>經路1</span>
+			</div>
+			<div class="m-tip ui-grid-19">
+				<span>早</span>
+				<span>楽</span>
+			</div>
+			<div class="m-fun ui-grid-3">
+				<button>
+					<img src="img/Money.svg" alt="">
+					<a>定期代</a>
+				</button>
+			</div>
+		</div>
+		<div class="m-bd">
+			<div class="m-bd-time ui-grid-row">
+				<span class="ui-grid-5" id="check">09:10発->11:30着</span>
+				<span class="ui-grid-5">総額 <span id="check">11,990円</span></span>
+				<span class="ui-grid-15"></span>
+			</div>
+			<div class="m-bd-info ui-grid-row">
+				<span class="ui-grid-5">所要時間 <span id="check">2時間20分</span></span>
+				<span class="ui-grid-6">乗車時間 <span>2時間11分</span></span>
+				<span class="ui-grid-4">乗換 <span id="check">1回</span></span>
+				<span class="ui-grid-10"></span>
+			</div>
+		</div>
+		<div class="m-op ui-grid-row">
+			<div class="ui-grid-20"></div>
+			<div class="m-op-print ui-grid-2">
+				<img src="img/print.svg" alt="">
+				<a href="">印刷</a>
+			</div>
+			<div class="m-op-print ui-grid-3">
+				<img src="img/txt.svg" alt="">
+				<a href="">テキスト</a>
+			</div>
+		</div>
+	</header>
+
+	<section>
+		<div class="m-tag ui-grid-row">
+			<span class="ui-grid-14">經路</span>
+			<span class="ui-grid-3">乗車位置</span>
+			<span class="ui-grid-2">運賃</span>
+			<span class="ui-grid-3">指定席/料金</span>
+			<span class="ui-grid-3">距離</span>
+		</div>
+
+		<div class="m-place ui-grid-row">
+			<div class="ui-grid-10">
+				<img src="img/sun.svg" alt="">
+				<img src="img/snow.svg" alt="">
+				<span class="m-place-name">名古屋空港</span>
+			</div>
+			<div class="ui-grid-10"></div>
+			<div class="m-place-right ui-grid-5"><a>時刻表</a></div>
+		</div>
+
+		<div class="m-line ui-grid-row">
+			<div class="ui-grid-4">
+				<li>09:10-09:40</li>
+				<li>30 分</li>
+			</div>
+			<div class="m-block ui-grid-1"></div>
+			<div class="m-line-way ui-grid-10">
+				<ul>
+					<img src="img/bus.svg" alt="">
+					<span id="bus">bus</span>
+				</ul>
+				<span>名古屋空港線[名古屋](名古屋駅前行)</span>
+			</div>
+			<div class="m-line-info ui-grid-2">
+				<span></span>
+			</div>
+			<div class="m-line-info ui-grid-2" id="money">
+				<span>700円</span>
+			</div>
+			<div class="m-line-info ui-grid-3">
+				<span></span>
+			</div>
+			<div class="m-line-info ui-grid-2">
+				<span></span>
+			</div>
+		</div>
+
+		<div class="m-place ui-grid-row">
+			<div class="ui-grid-10">
+				<span>(9分)</span>
+				<img src="img/snow.svg" alt="">
+				<span class="m-place-name">名古屋駅前/名古屋</span>
+			</div>
+			<div class="ui-grid-10">
+				<span>14番線発</span>
+			</div>
+			<div class="m-place-right ui-grid-5">
+				<a>時刻表</a>
+				<a href="">構内図</a>
+				<a href="">路線図</a>
+				<a href="">地図</a>
+				<a href="">クーボン</a>
+				<a href="">グルメ</a>
+			</div>
+		</div>
+
+		<div class="m-line ui-grid-row">
+			<div class="ui-grid-4">
+				<li>09:49-11:30</li>
+				<li>101 分</li>
+			</div>
+			<div class="m-block ui-grid-1">
+				<li></li>
+				<li></li>
+				<li></li>
+			</div>
+			<div class="m-line-way ui-grid-10">
+				<ul>
+					<img src="img/train.svg" alt="">
+					<span id="train">train</span>
+				</ul>
+				<span>のぞみ310号（東京行）</span>
+				<button>出張バック</button>
+			</div>
+			<div class="m-line-info ui-grid-2">
+				<span></span>
+			</div>
+			<div class="m-line-info ui-grid-2" id="money">
+				<span>6,260円</span>
+			</div>
+			<div class="m-line-info ui-grid-3">
+				<span>指定席</span>
+				<span>5,030円</span>
+			</div>
+			<div class="m-line-info ui-grid-2">
+				<span>366.0km</span>
+			</div>
+		</div>
+
+		<div class="m-place ui-grid-row">
+			<div class="ui-grid-10">
+				<img src="img/cloud.svg" alt="">
+				<img src="img/snow.svg" alt="">
+				<span class="m-place-name">東京</span>
+			</div>
+			<div class="ui-grid-10">
+				<span>14番線発</span>
+			</div>
+			<div class="m-place-right ui-grid-5">
+				<a href="">構内図</a>
+				<a href="">路線図</a>
+				<a href="">地図</a>
+				<a href="">ホテル</a>
+				<a href="">クーボン</a>
+				<a href="">グルメ</a>
+			</div>
+		</div>
+	</section>
+
+	
+</body>
+</html>

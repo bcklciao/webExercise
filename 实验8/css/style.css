@@ -1,0 +1,114 @@
+img{
+	width: 15%;
+	margin: 10px;
+}
+li{
+	list-style: none;
+}
+button{
+	background-color: #fff;
+	border: 1px solid #000;
+	border-radius: 4px 4px 0 0;
+	border-bottom: none;
+	width: 100px;
+	height: 30px;
+}
+button:hover{
+	background-color: #ddd;
+}
+
+.m-index{
+	position: absolute;
+	width: 800px;
+	height: 300px;
+	background-color: #eee;
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+
+.checked{
+	background-color: #eee;
+	border-radius: 4px  4px 0 0;
+}
+.ex2{
+	font-size: 120px;
+	font-weight: bold;
+	color: #ccc;
+	flex-direction: column;
+	text-align: center;
+}
+.ex2-choice{
+	width:100px;
+	height: 20px;
+	display: flex;
+}
+.ex2-choice>button{
+	width: 50px;
+	height: 20px;
+}
+.ex2-index{
+	background-color: #eee;
+	width: 300px;
+	border: 1px solid #000;
+	border-radius: 2px;
+}
+.ex3{
+	flex-direction: column;
+}
+.ex3>li{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin: 5px;
+}
+.ex3>li>span{
+	padding: 0 5px;
+}
+
+.delete{
+	background-color: #fff;
+	border: 1px solid #000;
+	border-radius: 4px;
+	width: 100px;
+	height: 20px;
+	margin-left: 10px;
+}
+.add{
+	background-color: #60A15C;
+	border: 1px solid #000;
+	border-radius: 4px;
+	color: #fff;
+	align-self: flex-end;
+	position: absolute;
+	bottom: 15px;
+}
+.add:hover{
+	background-color: #4CAF50;
+}
+
+.cover{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #555;
+	opacity: 0.5;
+}
+.amplifyImg{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+

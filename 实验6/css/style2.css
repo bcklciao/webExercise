@@ -1,0 +1,69 @@
+body{
+	background: #99BD8F;
+	margin: 0;
+	box-sizing: border-box;
+	font-size: 12px;
+}
+
+.g-index{
+	margin: 20px;
+	width: 390px;
+	height: 370px;
+	background-color: #FFFFEB;
+	border: 1px solid black;
+}
+
+img{
+	width: 390px;
+	height: 260px;
+}
+
+.footer{
+	background-color: #F2DCEB;
+	border-top: 1px solid black;
+	padding: 9.5px 10px; 
+}
+
+p{
+	margin: 0;
+	margin-bottom: 10px;
+	padding: 0 2px;
+	height: 18px;
+	background-color: white;
+	border: 1px solid black;
+}
+
+#title{
+	font-weight: bold;
+}
+
+#info{
+	color: #F20F4B;
+	font-weight: bold;
+}
+
+.payinfo{
+	background-color: white;
+	border: 1px solid black;
+	padding: 0 5px;
+	height: 28px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+
+#real{
+	color: #F20F4B;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#origin{
+	color: gray;
+	text-decoration: line-through;
+}
+
+#sold{
+	color: gray;
+}

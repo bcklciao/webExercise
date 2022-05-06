@@ -1,0 +1,86 @@
+body{
+	margin: 0;
+	box-sizing: border-box;
+	font-size: 12px;
+}
+div{
+	margin: 0;
+}
+
+.m-bk {
+    position: absolute;
+    width: 652px;
+    height: 422px;
+    background: url("../img/e06-3.png") no-repeat;
+    background-size: 100%;
+    opacity: .5;
+    z-index: -2;
+}
+
+.g-index{
+	width: 632px;
+	height: 402px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 10px;
+	background-color: #F2F2F2;
+}
+
+.tag{
+	width: 205px;
+	height: 195px;
+	border: 1px solid #eee;
+	margin-bottom: 10px;
+}
+
+img{
+	width: 205px;
+	height: 138px;
+}
+
+.footer{
+	padding: 0px 5px;
+	background-color: white;
+}
+
+p{
+	margin: 0;
+	height: 13px;
+}
+
+#activ{
+	color: #F20F4B;
+	font-weight: bold;
+}
+
+.payinfo{
+	margin-top: 3px;
+	height: 25px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.price{
+	color: #F20F4B;
+}
+#real{
+	color: #F20F4B;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#origin{
+	color: gray;
+	text-decoration: line-through;
+}
+
+#soldnum{
+	color: #F20F4B;
+	font-weight: bold;
+}
+
+#soldinfo{
+	color: gray;
+}
